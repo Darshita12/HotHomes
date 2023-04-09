@@ -1,0 +1,29 @@
+.table-wrap {
+    overflow-x: scroll;
+}
+
+.table-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.td{
+    padding: 0.75rem;
+    /* border: none; */
+    padding: 30px;
+    font-size: 14px;
+    background: #fff;
+    vertical-align: middle; 
+    display: flex;
+}
+.td-email{
+    display: block;
+}
+.td-content{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.3);
+    display: block;
+}

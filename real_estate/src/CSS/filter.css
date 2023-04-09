@@ -1,0 +1,256 @@
+/* :: 10.0 Advanced Search Area */
+.form-control1 {
+    background-color: transparent;
+    width: 100%;
+    height: 38px;
+    border-radius: 0;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 30px;
+    font-weight: 500;
+    padding: 0 15px;
+    border: 1px solid #e1dddd;
+}
+
+.form-control1:hover,
+.form-control1:focus {
+    background-color: transparent;
+    box-shadow: none;
+    border: 1px solid #e1dddd;
+}
+
+.nice-select {
+    line-height: 34px;
+}
+
+.nice-select .list {
+    left: 0 !important;
+    right: 0 !important;
+    border-radius: 0;
+}
+
+.south-search-area {
+    position: relative;
+    z-index: 1;
+}
+
+.south-search-area .advanced-search-form {
+    position: relative;
+    z-index: 1;
+    padding: 30px 50px;
+    border: 1px solid #e1dddd;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+}
+
+@media only screen and (max-width: 767px) {
+    .south-search-area .advanced-search-form {
+        padding: 30px 20px;
+    }
+}
+
+.south-search-area .advanced-search-form .search-title {
+    position: absolute;
+    width: 260px;
+    height: 45px;
+    background-color: #947054;
+    top: -46px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    padding: 0 40px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .south-search-area .advanced-search-form .search-title {
+        width: 210px;
+        padding: 0 15px;
+    }
+}
+
+.south-search-area .advanced-search-form .search-title p {
+    margin-bottom: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 45px;
+    font-weight: 600;
+}
+
+.south-search-area .advanced-search-form .slider-range {
+    flex: 0 0 50%;
+    min-width: 50%;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+    .south-search-area .advanced-search-form .slider-range {
+        margin-bottom: 50px;
+    }
+}
+
+.south-search-area .advanced-search-form .slider-range:first-child {
+    padding-right: 15px;
+}
+
+.south-search-area .advanced-search-form .slider-range:last-child {
+    padding-left: 15px;
+}
+
+.south-search-area .advanced-search-form .ui-widget.ui-widget-content {
+    border: none;
+    height: 4px;
+}
+
+.south-search-area .advanced-search-form .ui-widget-content {
+    background: #947054;
+}
+
+.south-search-area .advanced-search-form .ui-slider-horizontal {
+    height: 4px;
+    background: #947054;
+}
+
+.south-search-area .advanced-search-form .ui-corner-all,
+.south-search-area .advanced-search-form .ui-corner-bottom,
+.south-search-area .advanced-search-form .ui-corner-right,
+.south-search-area .advanced-search-form .ui-corner-br {
+    border-bottom-right-radius: 0;
+}
+
+.south-search-area .advanced-search-form .ui-corner-all,
+.south-search-area .advanced-search-form .ui-corner-bottom,
+.south-search-area .advanced-search-form .ui-corner-left,
+.south-search-area .advanced-search-form .ui-corner-bl {
+    border-bottom-left-radius: 0;
+}
+
+.south-search-area .advanced-search-form .ui-corner-all,
+.south-search-area .advanced-search-form .ui-corner-top,
+.south-search-area .advanced-search-form .ui-corner-right,
+.south-search-area .advanced-search-form .ui-corner-tr {
+    border-top-right-radius: 0;
+}
+
+.south-search-area .advanced-search-form .ui-corner-all,
+.south-search-area .advanced-search-form .ui-corner-top,
+.south-search-area .advanced-search-form .ui-corner-left,
+.south-search-area .advanced-search-form .ui-corner-tl {
+    border-top-left-radius: 0;
+}
+
+.south-search-area .advanced-search-form .ui-state-default,
+.south-search-area .advanced-search-form .ui-widget-content .ui-state-default,
+.south-search-area .advanced-search-form .ui-widget-header .ui-state-default,
+.south-search-area .advanced-search-form .ui-button,
+.south-search-area .advanced-search-form html .ui-button.ui-state-disabled:hover,
+.south-search-area .advanced-search-form html .ui-button.ui-state-disabled:active {
+    border: none;
+    background: #947054;
+    margin-top: -3px;
+}
+
+.south-search-area .advanced-search-form .range {
+    font-size: 12px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 767px) {
+    .south-search-area .advanced-search-form .range {
+        font-size: 10px;
+    }
+}
+
+.south-search-area .advanced-search-form .more-filter a {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #323232;
+}
+
+.south-search-area .advanced-search-form .more-filter a:hover {
+    color: #947054;
+}
+
+.south-search-area .advanced-search-form .search-form-second-steps {
+    display: none;
+}
+
+.filter-button {
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(32deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    transition: all 1.5s ease;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    padding: 0;
+}
+.home-sold-button{
+    margin-left: 60px;
+    border-color: red;
+    border-radius: 20px;
+    transition: all 1.5s ease;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    padding: 0;
+    background: transparent;
+    color: red;
+}
+.home-sold-button:hover{
+    background: transparent;
+}
+.home-sold-button span{
+    padding: 15px 35px;
+    font-size: 17px;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    transition: 0.4s ease-in-out;
+    transition-property: color;
+    height: 100%;
+    width: 100%;
+}
+
+.sold-button {
+    border-color: red;
+    border-radius: 20px;
+    transition: all 1.5s ease;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    padding: 0;
+    background: transparent;
+    color: red;
+    margin: 20px 0 0 330px
+
+}
+
+.sold-button span {
+    padding: 15px 35px;
+    font-size: 17px;
+    border-radius: 20px;
+    color: rgb(226, 38, 38);
+    background: transparent;
+    backdrop-filter: blur(20px);
+    transition: 0.4s ease-in-out;
+    transition-property: color;
+    height: 100%;
+    width: 100%;
+}
+
+.filter-button span {
+    padding: 15px 35px;
+    font-size: 17px;
+    border-radius: 20px;
+    background: #00B98E;
+    backdrop-filter: blur(20px);
+    transition: 0.4s ease-in-out;
+    transition-property: color;
+    height: 100%;
+    width: 100%;
+}
+
+.filter-button span:hover {
+    backdrop-filter: blur(0px);
+    color: #ffffff;
+}
